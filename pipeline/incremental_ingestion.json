@@ -5,6 +5,8 @@
 			{
 				"name": "azure-sql-to-lake",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -59,7 +61,12 @@
 					},
 					"dataset": {
 						"referenceName": "Json1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "bronze",
+							"folder": "dcc",
+							"file": "cdc_json"
+						}
 					},
 					"firstRowOnly": false
 				}
