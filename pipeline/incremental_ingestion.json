@@ -65,7 +65,7 @@
 						"parameters": {
 							"container": "bronze",
 							"folder": "dcc",
-							"file": "cdc_json"
+							"file": "cdc.json"
 						}
 					},
 					"firstRowOnly": false
@@ -79,7 +79,7 @@
 			"table": {
 				"type": "string"
 			},
-			"cdc_col": {
+			"cdc.col": {
 				"type": "string"
 			}
 		},
