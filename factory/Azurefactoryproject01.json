@@ -1,0 +1,15 @@
+{
+	"name": "Azurefactoryproject01",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be9d0761-1ad5-4ee9-b392-4b3934a679eb",
+		"tenantId": "dc78956f-8c91-443d-bc5f-b2fa60afcac3"
+	}
+}
